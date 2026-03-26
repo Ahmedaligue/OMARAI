@@ -15,9 +15,6 @@ ${config.developer.instagramUrl}
 *قناة واتساب:*
 ${config.developer.channelUrl}
 
-*GitHub:*
-github.com/omarxarafp
-
 ${utils.poweredBy}`;
 
             await sock.sendMessage(remoteJid, { text: ownerInfo }, { quoted: msg });
