@@ -14,7 +14,7 @@ const linkPatterns = [
     /(?:https?:\/\/)?(?:www\.)?x\.com\/[a-zA-Z0-9_]+/gi
 ];
 
-const GROUP_LINK = 'https://chat.whatsapp.com/JZ4mpJqjG2DGoGKKHbjTpy?mode=hqrc';
+const GROUP_LINK = 'https://chat.whatsapp.com/Ct6Fvzf9XL0ApWDNqk8hlS';
 
 function containsGroupLink(text) {
     return linkPatterns.some(pattern => {
