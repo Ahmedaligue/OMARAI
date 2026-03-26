@@ -227,7 +227,7 @@ export async function sendAppSearchResults(sock, jid, searchQuery, apps, footer 
         jid,
         `نتائج البحث`,
         `لقيت ${apps.length} تطبيق لـ: *${searchQuery}*`,
-        footer || 'Omar AI Bot',
+        footer || 'Senku AI Bot',
         'نتائج البحث',
         sections,
         quoted
