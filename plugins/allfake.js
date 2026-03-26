@@ -26,7 +26,7 @@ const fakeDocTypes = [
 ];
 
 export function createFakeContext(senderName, senderPhone) {
-    const namebot = config.bot?.name || 'Omar AI';
+    const namebot = config.bot?.name || 'SENKU AI';
     const sig = config.developer.instagramUrl;
     const greeting = getGreeting();
     const botdate = getDate();
@@ -36,7 +36,7 @@ export function createFakeContext(senderName, senderPhone) {
             isForwarded: true,
             forwardingScore: 1,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363285847738492@newsletter',
+                newsletterJid: '120363405848897016@newsletter',
                 serverMessageId: 103,
                 newsletterName: `${namebot} | ${greeting}`
             },
