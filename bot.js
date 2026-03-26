@@ -2196,7 +2196,7 @@ async function connectToWhatsApp() {
 
 📞 واش نتا مجنون؟ المكالمات ممنوعة هنا!
 
-🤖 أنا Omar AI، بوت ذكي ماشي إنسان باش تتصل بيا!
+🤖 أنا SENKU AI، بوت ذكي ماشي إنسان باش تتصل بيا!
 🚫 تبلوكيتي نهائياً بسبب هاد الحركة.
 
 ${INSTAGRAM_URL}${POWERED_BY}`;
@@ -2461,7 +2461,7 @@ ${INSTAGRAM_URL}${POWERED_BY}`;
 
 ❌ واش باغي تخربق البوت؟ 10 تحميلات متتابعة بزاف!
 
-🤖 أنا Omar AI وماشي مكينة فتسبيمي!
+🤖 أنا SENKU AI وماشي مكينة فتسبيمي!
 📊 الحد: 3 تحميلات متتابعة ماشي 10!
 
 💡 المرة الجاية صبر شوية بين كل طلب.
@@ -2491,7 +2491,7 @@ ${INSTAGRAM_URL}${POWERED_BY}`;
 
 ❌ 25 رسالة فساعة وحدة؟! واش عندك شي مشكل؟
 
-🤖 أنا Omar AI، بوت ذكي ماشي روبوت فتسبيمي!
+🤖 أنا SENKU AI، بوت ذكي ماشي روبوت فتسبيمي!
 📊 الحد: 25 رسالة فالساعة
 
 💡 إلى بغيتي توضح راسك، تواصل مع المطور باحترام.
@@ -2608,7 +2608,7 @@ async function handleMessage(sock, remoteJid, userId, senderPhone, text, msg, us
     if (isNewUser && session.firstTime && !isGroup) {
         session.firstTime = false;
 
-        const welcomeText = `*مرحبا بك في بوت Omar AI* 🤖
+        const welcomeText = `*مرحبا بك في بوت SENKU AI* 🤖
 
 📱 *تحميل التطبيقات:*
 صيفط اسم التطبيق وأنا نجيبو ليك
@@ -2915,7 +2915,7 @@ WhatsApp, Minecraft, Free Fire${POWERED_BY}`;
 
     if (lowerText === '/info' || lowerText === 'معلومات') {
         const infoText = `*معلومات البوت*
-Omar AI Bot v3.0
+SENKU AI Bot v3.0
 المصدر: APKPure
 كيّساند APK و XAPK${POWERED_BY}`;
         await sendBotMessage(sock, remoteJid, { text: infoText }, msg);
@@ -3122,7 +3122,7 @@ _ملاحظة: هذه الأوامر للمسؤولين فقط_`;
                         remoteJid,
                         `نتائج البحث`,
                         `لقيت ${cleanResults.length} تطبيق لـ: *${searchQuery}*`,
-                        'Omar AI Bot',
+                        'SENKU AI Bot',
                         'نتائج البحث',
                         sections,
                         msg
@@ -3381,7 +3381,7 @@ _ملاحظة: هذه الأوامر للمسؤولين فقط_`;
                             remoteJid,
                             `نتائج البحث`,
                             `لقيت ${cleanResults.length} تطبيق لـ: *${searchQuery}*`,
-                            'Omar AI Bot',
+                            'SENKU AI Bot',
                             'نتائج البحث',
                             sections,
                             msg
@@ -3622,7 +3622,7 @@ async function handleAppDownload(sock, remoteJid, userId, senderPhone, msg, appI
 
 ⭐ *للحصول على تحميلات غير محدودة:*
 ◄ تابع المطور على انستجرام للحصول على VIP مجاناً! 📸
-◄ https://www.instagram.com/omarxarafp${POWERED_BY}` 
+◄ https://www.instagram.com/aa18.aligue${POWERED_BY}` 
         }, msg);
         return;
     }
@@ -3781,7 +3781,7 @@ async function handleAppDownload(sock, remoteJid, userId, senderPhone, msg, appI
 
 ⭐ *باش تحمّل تطبيقات أكبر من 1GB:*
 ◄ تابع المطور على انستجرام للحصول على VIP مجاناً! 📸
-◄ https://www.instagram.com/omarxarafp
+◄ https://www.instagram.com/aa18.aligue
 
 💡 جرب تطبيق آخر أصغر${POWERED_BY}` 
                     }, msg);
@@ -3927,7 +3927,7 @@ async function handleAppDownload(sock, remoteJid, userId, senderPhone, msg, appI
 
 ⭐ *باش تحمّل تطبيقات أكبر من 1GB:*
 ◄ تابع المطور على انستجرام للحصول على VIP مجاناً! 📸
-◄ https://www.instagram.com/omarxarafp${liteMsg}
+◄ https://www.instagram.com/aa18.aligue${liteMsg}
 
 💡 جرب تطبيق آخر أصغر${POWERED_BY}` 
             }, msg);
@@ -4014,7 +4014,7 @@ async function handleAppDownload(sock, remoteJid, userId, senderPhone, msg, appI
 
 ⭐ *باش تحمّل تطبيقات أكبر من 1GB:*
 ◄ تابع المطور على انستجرام للحصول على VIP مجاناً! 📸
-◄ https://www.instagram.com/omarxarafp${liteMsg}
+◄ https://www.instagram.com/aa18.aligue${liteMsg}
 
 💡 جرب تطبيق آخر أصغر${POWERED_BY}` 
                 }, msg);
