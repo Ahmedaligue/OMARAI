@@ -3,16 +3,16 @@ const config = {
     geminiApiKey: process.env.GEMINI_API_KEY || '',
     
     developer: {
-        phones: ['212718938088', '234905250308102', '212718643833'],
-        instagramUrl: 'https://www.instagram.com/omarxarafp',
-        channelUrl: 'https://www.instagram.com/omarxarafp',
+        phones: ['212625457341'],
+        instagramUrl: 'https://www.instagram.com/aa18.aliue',
+        channelUrl: 'https://www.instagram.com/aa18.aligue',
         poweredBy: '\n\n> Omar AI',
-        pluginBranding: `\n\n*تابعني على انستجرام*\nhttps://www.instagram.com/omarxarafp\n\n> Omar AI`
+        pluginBranding: `\n\n*تابعني على انستجرام*\nhttps://www.instagram.com/aa18.aligue\n\n> senku AI`
     },
 
     bot: {
-        profileImageUrl: 'https://i.ibb.co/fYXc7sQx/Screenshot-2025-12-03-16-15-57-737-com-android-chrome-edit.jpg',
-        vipPassword: 'Omar',
+        profileImageUrl: 'https://i.ibb.co/jv8Lx7NV/brave-screenshot-www-instagram-com-2.png',
+        vipPassword: 'ahmed',
         presenceMode: 'unavailable',
         maxFileSize: 2 * 1024 * 1024 * 1024,
         zarchiverPackage: 'ru.zdevs.zarchiver'
@@ -35,9 +35,9 @@ const config = {
         enabled: true,
         words: [
             // كلمات عربية
-            'سب', 'شتم', 'لعن', 'كلب', 'حمار', 'زنقة', 'قحبة', 'زامل', 'تفو',
+            'سب', 'شتم', 'لعن', 'كلب', 'حمار', 'قحبة', 'زامل', 'تفو',
             'انيك', 'نيك', 'زب', 'كس', 'شرموطة', 'عاهرة', 'منيوك', 'متناك',
-            'ولد القحبة', 'ابن القحبة', 'تبا', 'خول', 'مخنث', 'لوطي',
+            'ولد القحبة', 'ابن القحبة', 'خول', 'مخنث', 'لوطي',
             'احمق', 'غبي', 'حقير', 'وسخ', 'زبالة', 'خرا', 'تخرا',
             'ابن الشرموطة', 'ابن الكلب', 'ابن الحرام', 'عرص', 'معرص',
             'طيز', 'كسمك', 'كس امك', 'كس اختك', 'نيك امك', 'يلعن',
@@ -115,7 +115,7 @@ const config = {
     },
 
     messages: {
-        welcome: (userInfo, cfg) => `*بوت Omar AI المتعدد الوظائف*
+        welcome: (userInfo, cfg) => `*بوت SENKU AI المتعدد الوظائف*
 
 مرحبا بيك آ ${userInfo.name}
 النمرة ديالك: +${userInfo.phone}${userInfo.status ? `\nالحالة: ${userInfo.status}` : ''}
